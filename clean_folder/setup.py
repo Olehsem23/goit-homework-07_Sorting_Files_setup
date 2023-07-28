@@ -13,5 +13,4 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent"],
     packages=find_namespace_packages(),
-    entry_points={'console_scripts': ['clean-folder = clean_folder.sort:main']},
     include_package_data=True)
